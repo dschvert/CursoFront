@@ -7,3 +7,4 @@ h1 {text-decoration: underline green;text-decoration-color: "blue";font-style: i
 .texto  {text-align: justify;font-size: 12px;}
 
 .subtitulo {font-style: oblique;font-family: serif;}
+li{font-style: oblique}
