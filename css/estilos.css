@@ -1,8 +1,8 @@
-body {background-color: : "#D8D7D5"}
+body {background-color: : #D8D7D5}
 
-img{width: ="300";height: "300";border:2px solid black;allign:center}
+img{width: =300px;height: 300px;border:2px solid black;allign:center}
 
-h1 {text-decoration: underline green;text-decoration-color: "blue";font-style: italic;text-align: center;}
+h1 {text-decoration: underline green;text-decoration-color: blue;font-style: italic;text-align: center;}
 
 .texto  {text-align: justify;font-size: 18px;background-image: ("./docs/assets/fondo.jpg");}
 
