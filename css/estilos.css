@@ -1,10 +1,15 @@
 body {background-color: : "#D8D7D5"}
 
-img{background-image: "./fondo.jpg";width: ="300";height: "300";border:2px solid black;}
+img{width: ="300";height: "300";border:2px solid black;allign:center}
 
 h1 {text-decoration: underline green;text-decoration-color: "blue";font-style: italic;text-align: center;}
 
-.texto  {text-align: justify;font-size: 12px;}
+.texto  {text-align: justify;font-size: 18px;background-image: ("D:\CursoFrontEnd\TP1\imagenes\fondo.jpg");}
 
-.subtitulo {font-style: oblique;font-family: serif;}
-li{position: absolute;left:100px;}
+.subtitulo {font-style: oblique;font-family: serif;position: relative;left:35px;}
+
+li{position: relative;left:100px;}
+
+.ubicacion {font-style: italic;
+  font-weight: bold;
+}
