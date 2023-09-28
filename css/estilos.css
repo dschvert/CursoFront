@@ -3,6 +3,16 @@ body {
 
 }
 
+
+header {
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: inherit;
+}
+
 .logo
 { width: 150px;
   height: 150px;
@@ -11,7 +21,8 @@ body {
   float:left;
 }
 
-img{width: 300px;
+.receta{
+  width: 300px;
   height: 300px;
   border:2px  solid black;
   display: block;
@@ -19,15 +30,27 @@ img{width: 300px;
   margin-right: auto;
 }
 
-h1 {text-decoration: underline green;color: blue;font-style: italic;text-align: center;}
+h1 {
+  text-decoration: underline green;
+  color: blue;
+  font-style: italic;
+  text-align: center;}
 
-.texto  {text-align: justify;font-size: 18px;}
+.texto  {
+  text-align: justify;
+  font-size: 18px;}
 
-.subtitulo {font-style: oblique;font-family: serif;position: relative;left:35px;}
+.subtitulo {
+  font-style: oblique;
+  font-family: serif;
+  position: relative;left:35px;}
 
-li{position: relative;left:100px;}
+li{
+  position: relative;
+  left:100px;}
 
-.ubicacion {font-style: italic;
+.ubicacion {
+  font-style: italic;
   font-weight: bold;
 }
 
@@ -49,6 +72,14 @@ li{position: relative;left:100px;}
     float: left;
 }
 
+.otrasrecetas {
+
+  display: flex;
+  padding-top: 50px;
+
+}
+
+
 .wp  {
   width: 65px;
   height: 65px;
@@ -59,9 +90,15 @@ li{position: relative;left:100px;}
 
 
 .iconos {
-  width: 100px;
-  height: 100px;
-    padding: 15px;
+    width: 80px;
+    height: 80px;
+    justify-content: space-between;
+}
+
+.redes {
+    width: 350px;
+    height: 80px;
+    padding: 25px;
     -webkit-border-radius: 15px;
     -moz-border-radius: 15px;
     border-radius: 15px;
@@ -69,4 +106,21 @@ li{position: relative;left:100px;}
     -moz-box-shadow: 0px 1px 3px #000000;
     box-shadow: 0px 1px 3px #000000;
     float: left;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mapabarrio{
+  width:100px;
+  height:100px;
+
+}
+
+.pie{
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: inherit;
 }
