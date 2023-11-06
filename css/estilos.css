@@ -22,7 +22,7 @@ header {
   float:left;
 }
 
-.titulopag{
+#titulopag{
   text-decoration: underline green;
   color: blue;
   font-size: 3vw;
@@ -41,7 +41,7 @@ header {
   border-radius:5%;
 }
 
-.subreceta {
+#subreceta {
   text-decoration: underline green;
   color: blue;
   font-style: italic;
@@ -192,5 +192,25 @@ a {
 @media   (min-width:992px)
 {
  .zonareceta   {display: block};
- body {background-color: #ACA494 }
+ body {background-color: blue};
+ /* #ACA494 */
+}
+
+#modon {
+  width: 5vw;
+  height: 5vh;
+  position: fixed;
+  bottom: 24%;
+  right: 4%;
+  border-radius:15%;
+  text-decoration: none;
+}
+#imgmodo {
+  width: 5vw;
+  height: 5vh;
+  position: fixed;
+  bottom: 24%;
+  right: 4%;
+  border-radius:15%;
+  text-decoration: none;
 }
