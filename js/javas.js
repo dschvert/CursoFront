@@ -3,6 +3,9 @@ document.getElementById("btnnocturno").addEventListener("click", function ()  {
  document.body.style.backgroundColor="black" ;
  document.getElementById("titulopag").style.color="white" ;
  document.getElementById("subreceta").style.color="white" ;
+ document.getElementById("section").style.color="white" ;
+ document.getElementById("ubicacion").style.color="white" ;
+ document.getElementById("infodev").style.color="white" ;
  console.log("Entro")
 });
 
